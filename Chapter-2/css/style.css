@@ -1,0 +1,26 @@
+body{
+    /* background-image: url(../image/Background.jpg); */
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    background-color: rgb(210, 245, 233);
+}
+
+.class1{
+    border-style: solid;
+    border-width: 4px;
+    border-color: brown;
+    border-radius: 20px;
+}
+
+.class2{
+    border-style: dotted;
+    border-width: 4px;
+    border-color: darkblue;
+}
+.class3{
+    border-style:double;
+    border-top-style:dashed;
+    border-width: 4px;
+    border-color: darkmagenta;
+}
