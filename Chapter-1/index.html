@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Learnings</title>
+    <!-- Applying CSS using link tag by mentioning seperate CSS file inside href attribute -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Applying CSS usig style tag -->
+    <style>
+        body{
+            background-color: rgb(203, 186, 243);
+        }
+
+        #para2{
+            font-size: large;
+            background-color: aquamarine;
+            font-style: oblique;
+        }
+
+        .para1{
+            background-color: bisque;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <p>Example of element selector</p>
+    <p class="para1">Example of class selector</p>
+    <p id="para2">Example of ID Selector</p>
+    <p style="color:rgb(250, 6, 6); font-size: larger;">Example of using CSS inside element tag</p>
+
+    <!-- Applying CSS from seperate stylesheet -->
+    <div class="nav">
+        <ul class="items">
+            <li>Item-1</li>
+            <li>Item-2</li>
+            <li>Item-3</li>
+            <li>Item-4</li>
+            <li>Item-5</li>
+        </ul>
+    </div>
+</body>
+</html>
