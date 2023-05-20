@@ -1,0 +1,54 @@
+.para1{
+    border-style: solid;
+    border-width: 10px;
+    padding: 10px;
+    text-align: justify;
+    position: fixed;
+    left: 60%;
+    top: 10%;
+}
+
+.heading1{
+    padding-right: 32px;
+    position: fixed;
+    left: 60%;
+}
+
+.class{
+    border-style: double;
+    border-color: brown;
+    border-width: 10px;
+    margin: 20px;
+    text-align: justify;
+    padding: 10px;
+    width: 50%;
+}
+
+.container1{
+    border-style: solid;
+    border-width: 4px;
+}
+
+.heading2{
+    margin-left: 4px;
+    margin-top: 1px;
+}
+
+.first{
+    background-color: blue;
+    height: 40px;
+    width: 30%;
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 4px;
+}
+
+.second{
+    background-color: tomato;
+    height: 40px;
+    width: 30%;
+    /* display: inline-block; */
+    float: right;
+    margin-top: 2px;
+    margin-right: 4px;
+}
