@@ -1,0 +1,49 @@
+.nav{
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(10, 27, 180);
+    text-transform: capitalize;
+    text-align: right;
+    padding-right: 10px;
+    background-color: bisque;
+    margin-top: 20px;
+}
+
+.item{
+    list-style:lower-roman;
+    display: inline;
+    margin-left: 10px;
+}
+
+.class{
+    border-style: double;
+    border-width: 10px;
+    margin: 10px;
+    padding: 8px;
+    text-align: center;
+    border-color: brown;
+}
+
+.para1{
+    font-size: large;
+    font-family: Helvetica;
+    font-style: italic;
+}
+
+.para2{
+    font-size: 2vw; /*2% of browser tab view wide*/
+    font-style: oblique;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: aqua;
+    font-size: larger;
+    border-style: solid;
+    padding: 2px;
+    color: rgb(240, 7, 7);
+    border-color: blue;
+}
