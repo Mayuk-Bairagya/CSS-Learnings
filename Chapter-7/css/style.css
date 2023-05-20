@@ -1,0 +1,19 @@
+body{
+    background-color:rgb(146, 250, 215);
+}
+
+.myflex{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: baseline;
+}
+
+.myflex > div{
+    background-color: rgb(182, 81, 81);
+    width: 10%;
+    height: 10%;
+    font-size: 20px;
+    margin: 6px;
+}
